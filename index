@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погодный Информер</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+        }
+        #weather-container {
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+        #ww_ba6a685231b56 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="weather-container">
+        <div id="ww_ba6a685231b56" v="1.3" loc="id" a='{"t":"horizontal","lang":"ru","ids":["wl1749"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"#000000","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","el_whr":3,"el_nme":3}'>
+            <a href="https://weatherwidget.org/" id="ww_ba6a685231b56_u" target="_blank">Free weather widget</a>
+        </div>
+        <script async src="https://app3.weatherwidget.org/js/?id=ww_ba6a685231b56"></script>
+    </div>
+</body>
+</html>
